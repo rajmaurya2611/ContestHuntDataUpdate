@@ -122,7 +122,7 @@ type SlotStats = {
 type SlotState = Record<SlotId, SlotStats>;
 type SlotNextMap = Partial<Record<SlotId, string>>;
 
-export default function App(): React.FC {
+export default function App() {
   // =========================
   // LEFT: 13-minute countdown
   // Uses REFRESH API
